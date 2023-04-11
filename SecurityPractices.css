@@ -1,0 +1,40 @@
+.SecurityPractices{
+    width: 940px;
+    height: 1220px;
+    margin-left: 50px;
+    border: 1px solid;
+}
+
+.fullInfo{
+    width: 778px;
+    height: 900px;
+    margin-left: 85px;
+    padding-top: 65px;
+}
+
+.topTittle{
+    width: 771px;
+    height: 127px;
+    display: flex;
+}
+
+.topTittle h1{
+    width: 667px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 15px;
+    line-height: 45px;
+    text-indent: 10px;
+}
+
+.fullInfo ul li{
+    margin-top: 13px;
+}
+
+.SecurityPractices_Bottom{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}

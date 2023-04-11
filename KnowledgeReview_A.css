@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+button{
+  width: 100px;
+  height: 40px;
+}
+
+.KnowledgeReview_A {
+  width: 800px;
+  height: 400px;
+  border: 1px solid;
+}
+
+.KnowledgeReview_A_Title {
+  height: 70px;
+  
+}
+
+.KnowledgeReview_A_CheckBox {
+  height: 230px;
+}
+
+.KnowledgeReview_A_CheckBox ul{
+
+    margin-left: 30px;
+  }
+
+.KnowledgeReview_A_CheckBox li {
+    height: 50px;
+    font-size: 15px;
+}
+
+.ChooseBox{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid;
+}
+
+.ChooseBox_active{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid;
+  background-color: black;
+}
+
+.KnowledgeReview_A_Bottom{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}

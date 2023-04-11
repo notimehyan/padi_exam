@@ -1,0 +1,494 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------------------------- ow01-a ------------------------------ */
+.ow01 {
+  margin: 50px;
+  width: 1000px;
+  height: 950px;
+  border: 1px black solid;
+  display: flex;
+}
+
+.ow01_left {
+  width: 940px;
+}
+
+.ow01_right {
+  width: 60px;
+  background-color: #0e488b;
+}
+
+.testExam {
+  width: 700px;
+  display: inline-block;
+}
+.testExam ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 930px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.testExam ul li {
+  margin: 0 50px 10px 0px;
+  width: 415px;
+  /* border: 1px solid; */
+}
+
+.testExam ul li:first-child{
+  height: 100px;
+}
+
+.testExam ul li:last-child span{
+  margin-top: 13px;
+}
+
+.examTittle{
+  font-size: 14px;
+}
+
+.timu{
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.fangkuang{
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border: 1px solid;
+  margin-right: 5px;
+  /* background-color: #111; */
+}
+
+.examExcel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+
+.examExcel span {
+  display: inline-block;
+  width: 102px;
+  text-align: center;
+}
+/* ---------------------------------------------------------------- */
+
+
+
+/* ---------------------------- ow02-a ------------------------------ */
+.ow02a {
+  margin: 50px;
+  width: 1000px;
+  height: 950px;
+  border: 1px black solid;
+  display: flex;
+}
+
+.ow02a_left {
+  width: 940px;
+}
+
+.ow02a_right {
+  width: 60px;
+  background-color: #006a73;
+}
+
+.ow02a_testExam {
+  width: 700px;
+  display: inline-block;
+}
+.ow02a_testExam ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 870px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.ow02a_testExam ul li {
+  margin: 0 80px 10px 0px;
+  width: 415px;
+  /* border: 1px solid; */
+}
+
+.ow02a_testExam ul li span {
+  font-size: 14px;
+}
+
+.ow02a_examExcel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ow02a_examExcel span {
+  display: inline-block;
+  width: 102px;
+  text-align: center;
+}
+/* ---------------------------------------------------------------- */
+
+/* ---------------------------- ow02-b ------------------------------ */
+.ow02b {
+  margin: 50px;
+  width: 1000px;
+  height: 950px;
+  border: 1px black solid;
+  display: flex;
+}
+
+.ow02b_left {
+  width: 940px;
+}
+
+.ow02b_right {
+  width: 60px;
+  background-color: #006a73;
+}
+
+.ow02b_testExam {
+  width: 700px;
+  display: inline-block;
+}
+.ow02b_testExam ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 790px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.ow02b_testExam ul li {
+  margin: 0 50px 10px 0px;
+  margin-top: 20px;
+  width: 415px;
+  /* border: 1px solid; */
+}
+
+.ow02b_testExam ul li span {
+  font-size: 13px;
+}
+
+.ow02b_examExcel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ow02b_bottom{
+  margin-left: 50px;
+  font-size: 13px;
+  width: 800px;
+}
+
+/* ---------------------------------------------------------------- */
+
+
+/* ---------------------------- ow03-a ------------------------------ */
+.ow03a {
+  margin: 50px;
+  width: 1000px;
+  height: 1010px;
+  border: 1px black solid;
+  display: flex;
+}
+
+.ow03a_left {
+  width: 940px;
+}
+
+.ow03a_right {
+  width: 60px;
+  background-color: #389467;
+}
+
+.ow03a_testExam {
+  width: 700px;
+  display: inline-block;
+}
+.ow03a_testExam ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 955px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.ow03a_testExam ul li {
+  margin: 0 50px 10px 0px;
+  width: 415px;
+  /* border: 1px solid; */
+}
+
+.ow03a_testExam ul li:first-child{
+  height: 100px;
+}
+
+.ow03a_testExam ul li span {
+  font-size: 13px;
+}
+
+.ow03a_examExcel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ow03a_examExcel span {
+  display: inline-block;
+  width: 102px;
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* ---------------------------- ow03-b ------------------------------ */
+.ow03b {
+  margin: 50px;
+  width: 1000px;
+  height: 1010px;
+  border: 1px black solid;
+  display: flex;
+}
+
+.ow03b_left {
+  width: 940px;
+}
+
+.ow03b_right {
+  width: 60px;
+  background-color: #389467;
+}
+
+.ow03b_testExam {
+  width: 700px;
+  display: inline-block;
+}
+.ow03b_testExam ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 955px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.ow03b_testExam ul li {
+  margin: 0 50px 10px 0px;
+  width: 415px;
+  /* border: 1px solid; */
+}
+
+.ow03b_testExam ul li:first-child{
+  height: 100px;
+}
+
+.ow03b_testExam ul li span {
+  font-size: 13px;
+}
+
+.ow03b_examExcel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ow03b_examExcel span {
+  display: inline-block;
+  width: 102px;
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------- */
+
+
+
+/* ---------------------------- ow04-a ------------------------------ */
+.ow04a {
+  margin: 50px;
+  width: 1000px;
+  height: 950px;
+  border: 1px black solid;
+  display: flex;
+}
+
+.ow04a_left {
+  width: 940px;
+}
+
+.ow04a_right {
+  width: 60px;
+  background-color: #e4bb24;
+}
+
+.ow04a_testExam {
+  width: 700px;
+  display: inline-block;
+}
+.ow04a_testExam ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 870px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.ow04a_testExam ul li {
+  margin: 0 50px 10px 0px;
+  width: 415px;
+  /* border: 1px solid; */
+}
+
+.ow04a_testExam ul li:first-child{
+  height: 100px;
+}
+
+.ow04a_testExam ul li span {
+  font-size: 13px;
+}
+
+.ow04a_examExcel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ow04a_examExcel span {
+  display: inline-block;
+  width: 102px;
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* ---------------------------- ow04-b ------------------------------ */
+.ow04b {
+  margin: 50px;
+  width: 1000px;
+  height: 950px;
+  border: 1px black solid;
+  display: flex;
+}
+
+.ow04b_left {
+  width: 940px;
+}
+
+.ow04b_right {
+  width: 60px;
+  background-color: #e4bb24;
+}
+
+.ow04b_testExam {
+  width: 700px;
+  display: inline-block;
+}
+.ow04b_testExam ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 535px;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.ow04b_testExam ul li {
+  margin: 0 50px 10px 0px;
+  width: 415px;
+  /* border: 1px solid; */
+}
+
+.ow04b_testExam ul li:first-child{
+  height: 100px;
+}
+
+.ow04b_testExam ul li span {
+  font-size: 13px;
+}
+
+.ow04b_examExcel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ow04b_examExcel span {
+  display: inline-block;
+  width: 102px;
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------- */
+
+
+/* ---------------------------- ow05-a ------------------------------ */
+.ow05a {
+  margin: 50px;
+  width: 1000px;
+  height: 1010px;
+  border: 1px black solid;
+  display: flex;
+}
+
+.ow05a_left {
+  width: 940px;
+}
+
+.ow05a_right {
+  width: 60px;
+  background-color: #f49521;
+}
+
+.ow05a_testExam {
+  width: 700px;
+  display: inline-block;
+}
+.ow05a_testExam ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 950px;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.ow05a_testExam ul li {
+  margin: 0 50px 10px 0px;
+  width: 415px;
+  /* border: 1px solid; */
+}
+
+.ow05a_testExam ul li:first-child{
+  height: 100px;
+}
+
+.ow05a_testExam ul li span {
+  font-size: 13px;
+}
+
+.ow05a_examExcel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ow05a_examExcel span {
+  display: inline-block;
+  width: 102px;
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------- */
