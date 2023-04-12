@@ -138,15 +138,11 @@ for (let i = 0; i < lis.length; i++) {
     // backBtn.disabled = false;
 
     if (lis[i].querySelector("li :nth-child(1)").className === "ChooseBox") {
-      lis[i]
-        .querySelector("li :nth-child(1)")
-        .classList.add("ChooseBox_active");
+      lis[i].querySelector("li :nth-child(1)").classList.add("ChooseBox_active");
       nextBtn.disabled = false;
       backBtn.disabled = false;
     } else {
-      lis[i]
-        .querySelector("li :nth-child(1)")
-        .classList.remove("ChooseBox_active");
+      lis[i].querySelector("li :nth-child(1)").classList.remove("ChooseBox_active");
     }
 
     // console.log(i);
@@ -157,8 +153,24 @@ function addNew() {
   for (let i = 0; i < Exam01Data.length; i++) {
     const tiDom = document.createElement("div");
     tiDom.classList.add("KnowledgeReview_A");
+    document.body.appendChild(tiDom);
+
     const ti = Exam01Data[i].tittle;
     tiDom.innerHTML = ti;
+
+
+    const backBtn = document.createElement("button");
+    const backBtnText = document.createTextNode("上一题");
+    backBtn.appendChild(backBtnText)
+    backBtn.classList.add(".KnowledgeReview_A_left");
+    
+    const nextBtn = document.createElement("button");
+    const nextBtnText = document.createTextNode("下一题");
+    nextBtn.appendChild(nextBtnText)
+    nextBtn.classList.add(".KnowledgeReview_A_right");
+
+    document.body.appendChild(backBtn);
+    document.body.appendChild(nextBtn);
 
     console.log(tiDom);
   }
