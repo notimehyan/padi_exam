@@ -158,6 +158,9 @@ function addNew() {
     const ti = Exam01Data[i].tittle;
     tiDom.innerHTML = ti;
 
+    // const answer = Exam01Data[i].answer;
+    // tiDom.innerHTML = answer;
+
 
     const backBtn = document.createElement("button");
     const backBtnText = document.createTextNode("上一题");
