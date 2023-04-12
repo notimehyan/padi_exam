@@ -1,4 +1,4 @@
-let Exam01 = [
+let Exam01Data = [
   {
     tittle: "1. 请完成以下的深度 - 压力 - 空气体积 - 空气密度的表格:",
     answer: [
@@ -154,10 +154,10 @@ for (let i = 0; i < lis.length; i++) {
 }
 
 function addNew() {
-  for (let i = 0; i < Exam01.length; i++) {
+  for (let i = 0; i < Exam01Data.length; i++) {
     const tiDom = document.createElement("div");
     tiDom.classList.add("KnowledgeReview_A");
-    const ti = Exam01[i].tittle;
+    const ti = Exam01Data[i].tittle;
     tiDom.innerHTML = ti;
 
     console.log(tiDom);
