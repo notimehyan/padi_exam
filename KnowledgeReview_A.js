@@ -161,9 +161,9 @@ function addNew() {
     // const answer = Exam01Data[i].answer;
     // tiDom.innerHTML = answer;
 
-    const boxUp = 1
-    const boxMiddle =1
-    const boxDown = 1
+    const boxUp = 10000
+    const boxMiddle =10000
+    const boxDown = 100000
 
     const backBtn = document.createElement("button");
     const backBtnText = document.createTextNode("上一题");
